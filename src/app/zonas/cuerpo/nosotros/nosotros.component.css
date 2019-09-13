@@ -1,0 +1,30 @@
+.par {
+    text-align: center;
+}
+
+.par p{
+    color: azure;
+}
+
+.par:nth-child(4) p {
+    color: gray;
+}
+#acerca-de {
+    background: url('./../../../../assets/imagenes/pollo.jpeg') center center no-repeat;
+    background-size: cover;
+}
+.texto-acerca-de {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+.contenido-seccion {
+    padding: 5rem 0;
+}
+.btn {
+    background: border-box;
+    background-color: darkgoldenrod;
+    padding: 1px;
+    margin: 1px;
+    border-radius: 2px solid 2px color blue;
+}

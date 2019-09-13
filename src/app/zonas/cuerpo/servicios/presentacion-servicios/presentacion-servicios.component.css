@@ -1,0 +1,30 @@
+.contenedor {
+    padding: 2em;
+}
+
+.sub_cont{
+    padding: 2em;
+}
+
+.ico {
+    padding: 2em 2em 2em 2em;
+    background-color: #fff48b;
+    z-index: 99;
+}
+.ico1 { 
+    z-index: 9;
+    background-color: #ff6a6a;
+    text-align: center;
+}
+.ico2 { 
+    margin-top: 1em; 
+    text-align: center;
+    background-color: #1E1E1E;
+}
+.ico2 a { 
+color: aliceblue;
+text-decoration: none;
+font-family: "Sansation Light";
+font-weight: lighter;
+font-size: 1.3em;
+}

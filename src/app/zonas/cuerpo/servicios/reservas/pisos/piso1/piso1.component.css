@@ -1,0 +1,25 @@
+.a {
+    margin: 0.7em;
+    height: 8em;
+    font-family: "Sansation Light";
+    padding: 3em;
+    border-radius: 0.7em;
+}
+.a:hover {
+cursor: pointer;
+}
+
+.a:nth-child(1) {
+background-color: brown
+}
+.a:nth-child(3) {
+ background-color: brown
+}
+
+.a:nth-child(1):hover {
+cursor:  not-allowed;
+}
+
+.a:nth-child(3):hover {
+ cursor:  not-allowed;
+}

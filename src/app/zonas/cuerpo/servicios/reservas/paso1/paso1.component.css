@@ -1,0 +1,75 @@
+.espacio {
+    margin: 2em;
+    padding: 1em;
+    background-color: #0D0D0D;
+    border-radius: 2em;
+}
+.todo {
+    background-color: #CCD1D1;
+    border-radius: 2em;
+}
+.cab0 {
+    text-align: center;
+}
+.cap {
+text-align: center;
+margin-top: -1em;   
+}
+.cap a{
+background-color: azure;
+text-decoration: none;
+padding: 0.9em; 
+z-index: 999;   
+border-radius: 0.7em;
+font-family: "Sansation Light";
+font-weight: bolder;
+}
+.fech {
+
+}
+.dias {
+    text-align: center;
+    
+}
+.dias div:hover{
+background-color: gray;
+cursor: pointer;   
+}
+.hora {
+    text-align: center;
+}
+.s {
+    text-align: right;
+}
+.datos {
+    background-color: #525252;
+    border-radius: 2em;
+}
+.datos p {
+    font-family: "Sansation Light";
+    font-weight: bolder;
+    color: #CCD1D1;
+}
+.botones {
+    text-align: center;
+    padding: 3em;
+    background-color: #525252;
+    border-radius: 2em;
+}
+.botones a {
+    padding: 1em 3em 1em 3em;
+    text-decoration: none;
+    color: azure;
+    background-color: #1E1E1E;
+    font-family: "Sansation Light";
+    border-radius: 0.7em;
+    font-size: 1em; 
+}
+.botones a:hover {
+cursor: pointer;
+background-color: #ce3f3f;
+}
+.s p{
+    font-family: "Sansation Light";
+    font-weight: bolder;
+}

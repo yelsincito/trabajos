@@ -1,0 +1,35 @@
+.foto {
+ 
+ margin-bottom: 1em;
+ text-align: center;
+
+}
+.información p{
+
+    font-family: "Sansation Light";
+    font-weight: normal;
+}
+.información {
+    width: 21em;
+}
+.a0 {
+margin-top: 5em;
+}
+.b0 {
+text-align: center;
+margin-top: 1em;
+margin-bottom: 5em;
+}
+.btn_o {
+    margin: 0.45em;
+    font-family: "Sansation Light";
+    font-weight: 700;
+}
+.btn_c {
+    margin: 0.45em;
+    font-family: "Sansation Light";
+    font-weight: 700;
+}
+.mat0{
+background-color: #dfddc5;
+}

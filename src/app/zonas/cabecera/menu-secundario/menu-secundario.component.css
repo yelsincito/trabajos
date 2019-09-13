@@ -1,0 +1,26 @@
+.arg a{
+    color: #d3d3d3;
+    font-family: "Sansation Light";
+    font-size: 1em;   
+}
+.arg p{
+    color: #d3d3d3;
+  font-family: "Sansation Light";
+    font-size: 1em;   
+}
+.arg {
+text-align: left;
+transition-property: background;
+transition-duration: 0.6s;
+}
+.arg:hover{
+    background-color: darkgray;
+    font-weight: 700;
+}
+.arg:hover a{
+        color:  #1E1E1E;
+}
+.arg:hover a p{
+    color:  #1E1E1E;
+}
+    

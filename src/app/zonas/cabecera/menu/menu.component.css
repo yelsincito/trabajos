@@ -1,0 +1,65 @@
+.arg a{
+    color: lightgray;
+    font-family: "Sansation Light";
+    font-size: 1em;
+}
+.arg:hover{
+background-color: darkgray;
+}
+
+.arg:hover a{
+    color:  #1E1E1E;
+    font-weight: 700;
+    }
+
+.arg{
+border-radius: 2em;
+padding-top: 0.5em;
+transition-property: background;
+transition-duration: 0.6s;
+}
+
+
+/***/
+.cabecera_menu {
+    background-color: #1E1E1E;
+    position: sticky;   
+    }
+.logo {
+    text-align: center;
+ }
+
+ .r-social {
+     text-align: right;
+ }
+ .mn0 {
+     padding-right: 1%;
+ }
+ .mn {
+    padding-right: 1%;  
+ }
+ .rs {
+ padding-right: 0.9em;
+ }
+
+ .btn_m{
+  text-align: center;
+ }
+ .botonmenu {
+     background-color: #1E1E1E;
+ }
+
+ .lin {
+     margin-top: -2em;
+     display: block;
+     font-weight: bolder;
+     color:lightslategray;
+     font-family: "Sansation Light";
+ }
+ .lin1 {
+    display: block;
+    font-weight: bolder;
+    color:lightslategray;
+    font-family: "Sansation Light";
+}
+

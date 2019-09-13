@@ -1,0 +1,9 @@
+.contenedor {
+    padding: 5em;
+    background-color: seashell;
+}
+.sub {
+    background-color: #cccccc;
+    padding: 2em;
+    border-radius: 2em;
+}

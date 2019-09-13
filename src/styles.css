@@ -1,0 +1,36 @@
+/*Bootstrap*/
+@import '../node_modules/bootstrap/dist/css/bootstrap-reboot.min.css';
+@import '../node_modules/bootstrap/dist/css/bootstrap-grid.min.css';
+
+
+/*Tipografias*/
+
+@font-face {font-family: "Sansation Light";
+    src: url("../src/assets/fuentes/sansation/Sansation_Light.ttf");
+    src: url("../src/assets/fuentes/sansation/Sansation_Light.ttf") format("truetype"),
+
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Mali&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/*--------------------------------------*/
+
+body {
+background-image: url('../src/assets/imagenes/fondo.JPG');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+

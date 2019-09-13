@@ -1,0 +1,41 @@
+        <div class="row cabecera_menu">
+                <div class="col-2 align-self-center logo" >
+                    <a href=""><img style="width: 50px" src="assets/imagenes/logo.png" alt=""></a>
+             
+                </div>
+                <div class="col-10 align-self-center mn">
+                    <div class="col-12 text-light">
+                            <div class="d-none d-md-block">
+                                    <ul class="nav justify-content-end mn0">
+                                        <li class="nav-item  arg"><a [routerLink]="['/cuerpo/home']" class="nav-link">Home</a></li>
+                                        <li class="nav-item  arg"><a [routerLink]="['/cuerpo/nosotros']" class="nav-link">Nosotros</a></li>
+                                        <li class="nav-item  arg"><a [routerLink]="['/cuerpo/servicios/presentacion-servicios']" class="nav-link">Servicios</a></li>
+                                        <li class="nav-item  arg"><a [routerLink]="['/cuerpo/contactos']" class="nav-link">Contactos</a></li>
+                                        <li class="nav-item  arg"><a [routerLink]="['/cuerpo/servicios/reservas/reservasP2/todo']" class="nav-link">Nuestros Platos</a></li>
+                                        <li class="nav-item  arg"><a [routerLink]="['/cuerpo/carta']" class="nav-link"><img src="assets/imagenes/carta.ico" alt=""></a></li>
+                                        <li *ngIf="!cliente" class="nav-item  arg"><a [routerLink]="['cuerpo/acceso/iniciar-sesion']" class="nav-link">Iniciar sesión </a></li>
+                                        <li *ngIf="cliente" class="nav-item  arg"><a [routerLink]="['cuerpo/acceso/iniciar-sesion']" class="nav-link">Cerrar sesión </a></li>
+                                        <li *ngIf="!cliente" class="nav-item  arg"><a [routerLink]="['/cuerpo/iniciar-sesion']" class="nav-link"><img src="../assets/imagenes/calendario.svg" style="width: 30px" alt=""></a></li>
+                                        <li *ngIf="cliente" class="nav-item  arg"><a [routerLink]="['/cuerpo/iniciar-sesion']" class="nav-link"><img class="rounded-circle" [src]="cliente.photoUrl" style="width: 30px" alt=""></a></li>
+                                        
+                                    </ul>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-12 btn_m">
+                        <div class="collapse d-md-none" id="um">
+                            <app-menu-secundario></app-menu-secundario>
+                        </div>
+                        <div data-toggle="collapse" data-target="#um" class="d-md-none botonmenu">
+                                <p class="lin1">────</p>
+                                <p class="lin">────</p>
+                                <p class="lin">────</p>
+                        </div>
+                </div>
+        </div>
+ 
+    
+    
+
+            
+

@@ -1,0 +1,11 @@
+.separacion{
+
+    padding-top:0em; 
+}
+.abajo{
+    padding-top: 1em;
+}
+.fondo{
+    background-image: url('/assets/imagenes/fondop.jpg')
+   
+}

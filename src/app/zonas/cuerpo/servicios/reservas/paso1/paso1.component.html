@@ -1,0 +1,20 @@
+<div class="container-fluid bg-light p-1 p-md-3">
+        <div class="row  justify-content-center bg-info m-3">
+            <div class="col-12 col-md-8 align-self-center area">
+                   <router-outlet></router-outlet>
+            </div>
+            <div class="col-8 col-md-4 bg-warning p-2 pt-5">
+                    <div class="col">
+                            <mat-card class="opcion">
+                                <mat-card class="s_opcion">PISOS</mat-card>
+                                <mat-card class="s_opcion" ><a [routerLink]="['/cuerpo/servicios/reservas/reservasP1/piso0']">Primero</a></mat-card>
+                                <mat-card class="s_opcion"><a [routerLink]="['/cuerpo/servicios/reservas/reservasP1/piso1']">Segundo</a></mat-card>
+                                <mat-card class="s_opcion"><a [routerLink]="['/cuerpo/servicios/reservas/reservasP1/piso2']">Tercero</a></mat-card>
+                            </mat-card>
+                    </div>
+                    <div class="col  mt-3">
+                            <mat-card class="btn bg-success"><a class="text-light" [routerLink]="['/cuerpo/servicios/reservas/reservasP2/todo']">Continuar</a></mat-card>
+                    </div>
+            </div>
+        </div>
+    </div>

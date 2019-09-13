@@ -1,0 +1,71 @@
+.contenedor{
+
+}
+
+.col_a {
+ text-align: center;
+ padding: 2%;
+
+}
+.img_a {
+border-radius: 2em;
+}
+
+.informacion {
+    padding: 2%;
+}
+
+/*=========================================*/
+.descripcion {
+padding: 0% 9% 0% 9%;
+
+}
+.descripcion p { 
+color: lightgray;
+font-size: 1.2em;
+font-family: "Sansation Light";
+}
+/*=========================================*/
+.boton_s {
+    margin-top: 3%;
+    padding: 0.5em;
+
+    text-align: center;
+}
+
+.boton_s a{
+    padding: 0.5em;
+    background-color: #1E1E1E;
+    color: lightgray;
+    font-size: 2em; 
+    text-decoration: none;
+    font-family: "Sansation Light";
+    border-radius: 0.3em;
+}
+.boton_s a:hover{
+    background-color: #ce3f3f;
+    color: lightgray;
+    font-weight: 700;
+}
+/*=========================================*/
+.titulo_d {
+    padding-top: 9%;
+    text-align: center;
+    border: solid #1E1E1E 1px;
+    background-color: #1E1E1E;
+    
+}
+.titulo_d p{
+    font-family: 'Mali', cursive;  
+    font-size: 1.5em; 
+}
+/*=========================================*/
+.contenido_d {
+    padding-left: 10%;
+    padding-bottom: 9%;
+    background-color: #1E1E1E;
+}
+
+.borde_d {
+    box-shadow: whitesmoke 0.1em 0em 1em 0.1em;
+}

@@ -1,0 +1,12 @@
+.separacion{
+
+    padding-top:0em; 
+}
+.abajo{
+    padding-top: 1em;
+}
+.fondo{
+    
+    background: linear-gradient(135deg, rgba(243,226,199,1) 0%, rgba(110,44,0,1) 0%, rgba(193,158,103,1) 82%, rgba(193,158,103,1) 100%);
+   
+}

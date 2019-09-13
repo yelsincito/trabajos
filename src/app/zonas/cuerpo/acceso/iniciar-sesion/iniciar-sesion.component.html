@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-12-fluid a0">
+      <mat-card *ngIf="logeado" class="mat0">
+          <mat-card class="foto">
+              <img [src]="cliente.photoUrl" alt="">
+           </mat-card>
+           <mat-card class="información">
+             <p>Nombre completo: {{cliente.name.toLowerCase()}}</p><br>
+             <p>Correo: {{cliente.email}}</p><br>
+           </mat-card>
+      </mat-card>
+      <mat-card *ngIf="!logeado" class="mat0">
+          <mat-card class="foto">
+              <img src="../../../../../assets/imagenes/user.svg"  alt="" class="img-thumbnail">
+           </mat-card>
+           <mat-card class="información">
+             <p>Nombre:</p><br>
+             <p>Correo:</p><br>
+           </mat-card>
+      </mat-card>
+    </div>
+    <div class="col-12 b0">
+        <button (click)="accesoGoogle()" mat-button class="btn_o bg-info" >Iniciar sesión   <img src="../../../../../assets/imagenes/google_ico.svg" style="width: 20px" alt=""></button>
+        <button (click)="cerrarSesion()" mat-button class="btn_c bg-warning">Cerrar sesión</button>
+    </div>
+  </div>
+</div>
+
